@@ -25,8 +25,9 @@ function sf_child_theme_dequeue_style() {
 
  function pizza_oven_assets() {
     wp_enqueue_style( 'pizzaoven', get_stylesheet_directory_uri(). '/assets/css/app.min.css' , array('storefront-style'), '1.4', 'screen' );
-    
     wp_enqueue_script( 'hello-js', get_stylesheet_directory_uri(). '/assets/js/helloBro.js', array(), '1.0', true );
+    wp_enqueue_script( 'hello-js', get_stylesheet_directory_uri(). '/assets/js/send-mail.js', array(), '1.0', true );
+
  }
 
  add_action( 'wp_enqueue_scripts', 'pizza_oven_assets' );

@@ -29,7 +29,7 @@
                         <div class="subscribe-block">
                             <form action="">
                                 <input type="text" class="newsletter-input" placeholder="ENTER YOUR EMAIL">
-                                <input type="submit" class="btn btn-primary" value="subscribe">
+                                <input type="submit" class="btn btn-primary blue-btn" value="subscribe">
                             </form>
                         </div>
                         <ul class="social">
@@ -62,7 +62,7 @@
 
 <?php wp_footer(); ?>
 
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-<!-- <script src="../wp-content/themes/tierrafirme/assets/js/send-mail.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../wp-content/themes/pizza-oven/assets/js/send-mail.js"></script>
 </body>
 </html>
